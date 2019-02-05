@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1C6C2122004D9F001004B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6C2022004D9F001004B5 /* AppDelegate.m */; };
+		EF1C6C2422004D9F001004B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6C2322004D9F001004B5 /* ViewController.m */; };
+		EF1C6C2722004D9F001004B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1C6C2522004D9F001004B5 /* Main.storyboard */; };
+		EF1C6C2922004DA1001004B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1C6C2822004DA1001004B5 /* Assets.xcassets */; };
+		EF1C6C2C22004DA1001004B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1C6C2A22004DA1001004B5 /* LaunchScreen.storyboard */; };
+		EF1C6C2F22004DA1001004B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6C2E22004DA1001004B5 /* main.m */; };
+		EF1C6C3922004DA1001004B5 /* BankCardNumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6C3822004DA1001004B5 /* BankCardNumTests.m */; };
+		EF1C6C4422004DA1001004B5 /* BankCardNumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6C4322004DA1001004B5 /* BankCardNumUITests.m */; };
+		EF1C6D662201B0CF001004B5 /* UITextField+BankCardInput.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C6D652201B0CF001004B5 /* UITextField+BankCardInput.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1C6C3522004DA1001004B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1C6C1422004D9F001004B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1C6C1B22004D9F001004B5;
+			remoteInfo = BankCardNum;
+		};
+		EF1C6C4022004DA1001004B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1C6C1422004D9F001004B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1C6C1B22004D9F001004B5;
+			remoteInfo = BankCardNum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1C6C1C22004D9F001004B5 /* BankCardNum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankCardNum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1C6C1F22004D9F001004B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1C6C2022004D9F001004B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1C6C2222004D9F001004B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1C6C2322004D9F001004B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1C6C2622004D9F001004B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1C6C2822004DA1001004B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1C6C2B22004DA1001004B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1C6C2D22004DA1001004B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1C6C2E22004DA1001004B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1C6C3422004DA1001004B5 /* BankCardNumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardNumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1C6C3822004DA1001004B5 /* BankCardNumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardNumTests.m; sourceTree = "<group>"; };
+		EF1C6C3A22004DA1001004B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1C6C3F22004DA1001004B5 /* BankCardNumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardNumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1C6C4322004DA1001004B5 /* BankCardNumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardNumUITests.m; sourceTree = "<group>"; };
+		EF1C6C4522004DA1001004B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1C6D642201B0CF001004B5 /* UITextField+BankCardInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+BankCardInput.h"; sourceTree = "<group>"; };
+		EF1C6D652201B0CF001004B5 /* UITextField+BankCardInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BankCardInput.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1C6C1922004D9F001004B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3122004DA1001004B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3C22004DA1001004B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1C6C1322004D9F001004B5 = {
+			isa = PBXGroup;
+			children = (
+				EF1C6C1E22004D9F001004B5 /* BankCardNum */,
+				EF1C6C3722004DA1001004B5 /* BankCardNumTests */,
+				EF1C6C4222004DA1001004B5 /* BankCardNumUITests */,
+				EF1C6C1D22004D9F001004B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1C6C1D22004D9F001004B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C6C1C22004D9F001004B5 /* BankCardNum.app */,
+				EF1C6C3422004DA1001004B5 /* BankCardNumTests.xctest */,
+				EF1C6C3F22004DA1001004B5 /* BankCardNumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1C6C1E22004D9F001004B5 /* BankCardNum */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C6C1F22004D9F001004B5 /* AppDelegate.h */,
+				EF1C6C2022004D9F001004B5 /* AppDelegate.m */,
+				EF1C6D642201B0CF001004B5 /* UITextField+BankCardInput.h */,
+				EF1C6D652201B0CF001004B5 /* UITextField+BankCardInput.m */,
+				EF1C6C2222004D9F001004B5 /* ViewController.h */,
+				EF1C6C2322004D9F001004B5 /* ViewController.m */,
+				EF1C6C2522004D9F001004B5 /* Main.storyboard */,
+				EF1C6C2822004DA1001004B5 /* Assets.xcassets */,
+				EF1C6C2A22004DA1001004B5 /* LaunchScreen.storyboard */,
+				EF1C6C2D22004DA1001004B5 /* Info.plist */,
+				EF1C6C2E22004DA1001004B5 /* main.m */,
+			);
+			path = BankCardNum;
+			sourceTree = "<group>";
+		};
+		EF1C6C3722004DA1001004B5 /* BankCardNumTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C6C3822004DA1001004B5 /* BankCardNumTests.m */,
+				EF1C6C3A22004DA1001004B5 /* Info.plist */,
+			);
+			path = BankCardNumTests;
+			sourceTree = "<group>";
+		};
+		EF1C6C4222004DA1001004B5 /* BankCardNumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C6C4322004DA1001004B5 /* BankCardNumUITests.m */,
+				EF1C6C4522004DA1001004B5 /* Info.plist */,
+			);
+			path = BankCardNumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1C6C1B22004D9F001004B5 /* BankCardNum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1C6C4822004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNum" */;
+			buildPhases = (
+				EF1C6C1822004D9F001004B5 /* Sources */,
+				EF1C6C1922004D9F001004B5 /* Frameworks */,
+				EF1C6C1A22004D9F001004B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankCardNum;
+			productName = BankCardNum;
+			productReference = EF1C6C1C22004D9F001004B5 /* BankCardNum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1C6C3322004DA1001004B5 /* BankCardNumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1C6C4B22004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNumTests" */;
+			buildPhases = (
+				EF1C6C3022004DA1001004B5 /* Sources */,
+				EF1C6C3122004DA1001004B5 /* Frameworks */,
+				EF1C6C3222004DA1001004B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1C6C3622004DA1001004B5 /* PBXTargetDependency */,
+			);
+			name = BankCardNumTests;
+			productName = BankCardNumTests;
+			productReference = EF1C6C3422004DA1001004B5 /* BankCardNumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1C6C3E22004DA1001004B5 /* BankCardNumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1C6C4E22004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNumUITests" */;
+			buildPhases = (
+				EF1C6C3B22004DA1001004B5 /* Sources */,
+				EF1C6C3C22004DA1001004B5 /* Frameworks */,
+				EF1C6C3D22004DA1001004B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1C6C4122004DA1001004B5 /* PBXTargetDependency */,
+			);
+			name = BankCardNumUITests;
+			productName = BankCardNumUITests;
+			productReference = EF1C6C3F22004DA1001004B5 /* BankCardNumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1C6C1422004D9F001004B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xxx;
+				TargetAttributes = {
+					EF1C6C1B22004D9F001004B5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF1C6C3322004DA1001004B5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1C6C1B22004D9F001004B5;
+					};
+					EF1C6C3E22004DA1001004B5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1C6C1B22004D9F001004B5;
+					};
+				};
+			};
+			buildConfigurationList = EF1C6C1722004D9F001004B5 /* Build configuration list for PBXProject "BankCardNum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1C6C1322004D9F001004B5;
+			productRefGroup = EF1C6C1D22004D9F001004B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1C6C1B22004D9F001004B5 /* BankCardNum */,
+				EF1C6C3322004DA1001004B5 /* BankCardNumTests */,
+				EF1C6C3E22004DA1001004B5 /* BankCardNumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1C6C1A22004D9F001004B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1C6C2C22004DA1001004B5 /* LaunchScreen.storyboard in Resources */,
+				EF1C6C2922004DA1001004B5 /* Assets.xcassets in Resources */,
+				EF1C6C2722004D9F001004B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3222004DA1001004B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3D22004DA1001004B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1C6C1822004D9F001004B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1C6C2422004D9F001004B5 /* ViewController.m in Sources */,
+				EF1C6C2F22004DA1001004B5 /* main.m in Sources */,
+				EF1C6D662201B0CF001004B5 /* UITextField+BankCardInput.m in Sources */,
+				EF1C6C2122004D9F001004B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3022004DA1001004B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1C6C3922004DA1001004B5 /* BankCardNumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C6C3B22004DA1001004B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1C6C4422004DA1001004B5 /* BankCardNumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1C6C3622004DA1001004B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1C6C1B22004D9F001004B5 /* BankCardNum */;
+			targetProxy = EF1C6C3522004DA1001004B5 /* PBXContainerItemProxy */;
+		};
+		EF1C6C4122004DA1001004B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1C6C1B22004D9F001004B5 /* BankCardNum */;
+			targetProxy = EF1C6C4022004DA1001004B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1C6C2522004D9F001004B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1C6C2622004D9F001004B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1C6C2A22004DA1001004B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1C6C2B22004DA1001004B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1C6C4622004DA1001004B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF1C6C4722004DA1001004B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1C6C4922004DA1001004B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1C6C4A22004DA1001004B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF1C6C4C22004DA1001004B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCardNum.app/BankCardNum";
+			};
+			name = Debug;
+		};
+		EF1C6C4D22004DA1001004B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCardNum.app/BankCardNum";
+			};
+			name = Release;
+		};
+		EF1C6C4F22004DA1001004B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankCardNum;
+			};
+			name = Debug;
+		};
+		EF1C6C5022004DA1001004B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankCardNumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.BankCardNumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankCardNum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1C6C1722004D9F001004B5 /* Build configuration list for PBXProject "BankCardNum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1C6C4622004DA1001004B5 /* Debug */,
+				EF1C6C4722004DA1001004B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1C6C4822004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1C6C4922004DA1001004B5 /* Debug */,
+				EF1C6C4A22004DA1001004B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1C6C4B22004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1C6C4C22004DA1001004B5 /* Debug */,
+				EF1C6C4D22004DA1001004B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1C6C4E22004DA1001004B5 /* Build configuration list for PBXNativeTarget "BankCardNumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1C6C4F22004DA1001004B5 /* Debug */,
+				EF1C6C5022004DA1001004B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1C6C1422004D9F001004B5 /* Project object */;
+}
