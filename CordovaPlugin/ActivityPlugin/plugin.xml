@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.kalengo.plugin.activityplugin"
+      version="0.1.0">
+    <name>activity</name>
+    <description>activity Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,activity</keywords>
+
+
+    <js-module src="www/activity.js" name="ActivityPlugin">
+        <clobbers target="KLG.plugins.activity" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ActivityPlugin">
+                <param name="ios-package" value="CDVActivityPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVActivityPlugin.h" />
+        <source-file src="src/ios/CDVActivityPlugin.m" />
+     </platform>
+</plugin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.kalengo.plugin.getversionplugin"
+      version="0.1.0">
+    <name>getversion</name>
+    <description>getversion Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,getversion</keywords>
+
+
+    <js-module src="www/getversion.js" name="GetVersionPlugin">
+        <clobbers target="KLG.plugins.getversion" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="GetVersionPlugin">
+                <param name="ios-package" value="CDVGetVersionPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVGetVersionPlugin.h" />
+        <source-file src="src/ios/CDVGetVersionPlugin.m" />
+     </platform>          
+</plugin>

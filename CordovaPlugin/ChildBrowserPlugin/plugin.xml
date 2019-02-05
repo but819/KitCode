@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.kalengo.plugin.childBrowserplugin"
+      version="0.1.0">
+    <name>childBrowser</name>
+    <description>childBrowser Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,childBrowser</keywords>
+
+
+    <js-module src="www/childbrowser.js" name="ChildBrowser">
+        <clobbers target="KLG.plugins.childbrowser" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ChildBrowser">
+                <param name="ios-package" value="ChildBrowserCommand"/>
+            </feature>
+        </config-file>
+        
+        <resource-file src="src/ios/ChildBrowser.bundle" />
+        <resource-file src="src/ios/ChildBrowserViewController.xib" />
+        
+        <header-file src="src/ios/ChildBrowserCommand.h" />
+        <header-file src="src/ios/ChildBrowserViewController.h" />
+        
+        <source-file src="src/ios/ChildBrowserCommand.m" />
+        <source-file src="src/ios/ChildBrowserViewController.m" />
+    </platform>
+</plugin>

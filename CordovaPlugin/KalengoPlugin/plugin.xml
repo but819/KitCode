@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.kalengo.plugin.kalengoplugin"
+      version="0.1.0">
+    <name>kalengo</name>
+    <description>kalengo Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,kalengo</keywords>
+
+
+    <js-module src="www/kalengo.js" name="KalengoPlugin">
+        <clobbers target="KLG.plugins.kalengo" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="KalengoPlugin">
+                <param name="ios-package" value="CDVKalengoPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVKalengoPlugin.h" />
+        <source-file src="src/ios/CDVKalengoPlugin.m" />
+     </platform>
+</plugin>

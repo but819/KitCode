@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.kalengo.plugin.dataplugin"
+      version="0.1.0">
+    <name>data</name>
+    <description>data Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,data</keywords>
+
+
+    <js-module src="www/data.js" name="DataPlugin">
+        <clobbers target="KLG.plugins.data" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DataPlugin">
+                <param name="ios-package" value="CDVDataPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVDataPlugin.h" />
+        <source-file src="src/ios/CDVDataPlugin.m" />
+     </platform>          
+</plugin>
